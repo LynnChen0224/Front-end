@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 选择器 {属性:值;} */
+        /* 声明 */
+        p {
+            font-size: 12px;
+            color: red;
+        }
+
+        /* 标签选择器、类选择器、id选择器、通配符选择器 */
+        /* 好比人的名字，可以重名。class属性,类选择器 */
+        .hahaha {
+            background-color: burlywood;
+        }
+
+        /* 好比人的身份证号，不能重复。
+        id选择器，#开头，只能调用一次，id的唯一性 */
+        #wuwuwu {
+            color: green;
+        }
+
+        /* 二者的区别在调用的次数上 ，class一般在修改样式时使用，id与js经常搭配使用。*/
+        /* 通配符选择器 */
+        * {
+            /* 选取所有标签 */
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+    选择器系列
+    <!-- 定义多个class属性，可以在双引号中将两个class用空格分隔 ，标签就能分别有两个类的值。有利于封装，减少代码冗余-->
+    <p class="hahaha lalala">hhhhhhhh</p>
+    <p id="wuwuwu">wwwwwwww</p>
+</body>
+
+</html>

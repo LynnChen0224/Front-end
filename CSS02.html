@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            /* 文字样式
+            1.设置多个字体：如果电脑未安装前面的字体，就执行后面的字体。
+            2.各种字体之间必须用英文逗号隔开。
+            3.如果有空格隔开的多个单词组成的字体名字要加引号。
+            4.常见将文字标签写在body标签中 */
+            font-family: 宋体;
+            /* 文字大小
+            1.标题的文字大小要单独指定，一定要跟单位。
+            2.默认为16px */
+            font-size: 20px;
+        }
+
+        .a {
+            /* 字体粗细
+            normal正常字体 只放大不加粗 font-weight:400;不跟单位
+            bold粗体 font-weight:700;
+            bolder特粗体
+            lighter细体
+            number 更提倡*/
+            font-weight: bold;
+        }
+
+        .b {
+            font-style: italic;
+            /* 不倾斜 font-style: normal; */
+        }
+
+        /* 复合属性
+        1.组合写可以节省代码，不能颠倒顺序 swsf：稍微舒服
+        2.字号和字体必须同时出现
+        font：font-style font-weight font-size/line-height font-family */
+    </style>
+</head>
+
+<body>
+    <h1>文字系列，定义文字样式、字体大小。</h1>
+    <p class="a">文字系列，定义字体粗细</p>
+    <p class="b">文字系列，定义斜体</p>
+</body>
+
+</html>
