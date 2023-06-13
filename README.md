@@ -5,5 +5,5 @@ HTML02：div和span标签、img标签、超链接、特殊字符 <br>
 HTML03：表格 <br>
 HTML04：列表 <br>
 HTML05：表单 <br>
-CSS01: 选择器 <br>
-CSS02: 字体属性 </P>
+CSS01：选择器 <br>
+CSS02：字体属性 </P>
