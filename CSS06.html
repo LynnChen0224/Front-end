@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a {
+            /* 把行内元素转换为块元素 */
+            display: block;
+        }
+
+        div {
+            /* 把块元素转换为行内元素 */
+            display: inline;
+        }
+
+        span {
+            /* 把行内元素转换为行内块元素 */
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 块元素
+    1.一行只能放一个块元素
+    2.可以设置宽度高度
+    3.默认宽度是容器（父级）100%
+    4.容器可以包含任何标签 -->
+    <a>元素显示模式</a>
+    <!-- 行内元素
+    1.一行可以放多个块元素
+    2.不可以设置宽度高度
+    3.默认宽度是内容宽度
+    4.容器可以包含文本或其他行内元素 -->
+    <div></div>
+    <!-- 行内块元素
+    1.一行可以放多个块元素
+    2.可以设置宽度高度
+    3.默认宽度是内容宽度 -->
+    <span></span>
+</body>
+
+</html>
